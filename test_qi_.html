@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de QI Gratuit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f2f2f2;
+    }
+    .question {
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Test de QI Officiel</h1>
+  <p>Réponds à ces 3 questions pour découvrir ton QI !</p>
+  
+  <div class="question">
+    <p>1. Combien font 2 + 2 ?</p>
+    <input type="text">
+  </div>
+  
+  <div class="question">
+    <p>2. Quelle est la capitale de la France ?</p>
+    <input type="text">
+  </div>
+
+  <div class="question">
+    <p>3. Complète : La Terre est...</p>
+    <input type="text">
+  </div>
+
+  <button onclick="rickroll()">Voir ton score</button>
+
+  <script>
+    function rickroll() {
+      alert("Analyse des résultats...");
+      setTimeout(() => {
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
